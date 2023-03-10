@@ -1,6 +1,6 @@
 ### Vanilla Javascript로 제작한 Music Player
 
-<a href="https://kim-bab.github.io/todolist/MusicPlayer/index.html">프로젝트 링크</a>🚀🚀
+<a href="https://kim-bab.github.io/MusicPlayer/index.html">프로젝트 링크</a>🚀🚀
 
 1. 플레이 화면<br>
 ![img1](https://user-images.githubusercontent.com/79827829/224198344-1de03daa-5da2-4908-8fd0-85f4ef676f43.jpg)
