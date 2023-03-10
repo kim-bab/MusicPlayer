@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>music player</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="reset.css">
+  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="content-wrap">
+    <div class="bg"></div>
+    <div class="inner-content">
+      <h2>playlist</h2>
+      <div class="img">
+        <img src="img/KakaoTalk_20221113_103546223.jpg" alt="titleImg">
+      </div>
+      <div class="title-view">
+        <div class="title">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="progress">
+        <div class="bar"></div>
+        <audio id="main-audio">
+          <source src="audio/modern-vlog-140795.mp3" type="audio/mp3">
+        </audio>
+        <div class="timer">
+          <span class="current">0:00</span>
+          <span class="end">0:00</span>
+        </div>
+      </div>
+      <div class="music-control">
+        <div class="control-btn">
+          <li class="repeat-btn"><i class="fa-solid fa-repeat"></i></li>
+          <li class="pre-btn"><i class="fa-solid fa-backward-step"></i></li>
+          <li class="play-btn"><i class="fa-solid fa-play"></i></li>
+          <li class="next-btn"><i class="fa-solid fa-forward-step"></i></li>
+          <li class="list-btn"><i class="fa-solid fa-list-ul"></i></li>
+        </div>
+      </div>
+      <section class="list-wrap">
+        <div class="inner-list-wrap">
+        </div>
+      </section>
+    </div>
+  </div>
+
+
+  <script src="main.js"></script>
+  <script src="https://kit.fontawesome.com/5b11df227d.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
